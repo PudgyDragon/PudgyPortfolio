@@ -1,0 +1,89 @@
+/* Background color of site */
+body {
+  background-color: #3E0063;
+  color: #FFFFFF;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  border-bottom: 2px solid #FFFFFF;
+  background-color: #3E0063;
+  color: #FFFFFF;
+}
+
+.pudgy-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.pudgy-pic {
+    padding: 1%;
+    background-color: #FFFFFF;
+    width: 25vw;
+    max-width: 200px;
+    height: auto;
+    border-radius:50%;
+}
+
+.pudgy-box {
+    width: 85vw;
+    height: auto;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #1d032b;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.big-pudgy{
+  text-align: center;
+  width: 75vw;
+}
+
+/* Main container for Flexbox */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Flexbox: I haven't done this in a hot minute */
+.pudgy-nav {
+  display: flex;
+  justify-content: center;
+  font-family: "Audiowide", sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1%;
+}
+
+.pudgy-intro {
+  display:flex;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.pudgy-tool {
+  display:flex;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.pudgy-outro {
+  display:flex;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.pudgy-hub {
+  color: white;
+  text-decoration: none;
+}
